@@ -4,4 +4,4 @@ let min = (a, b) => {
     return a < b ? a : b;
 }
 
-console.log(`The Minimum value is ${min(1, 3)}`);
+console.log(`The Minimum value is ${min(1, 3)}`); 

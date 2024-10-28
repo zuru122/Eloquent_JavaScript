@@ -17,6 +17,7 @@
  * - Zero is even, so `isEven(0)` returns true
  * - One is odd,  so `isEven(1)` returns false
  * - Fro any other positive whole number `N`,  its evennes is the smae as `isEven(N-2)`
+ * - If the number is negative, the function currently returns `-1` as an error indicator
  * 
  * @param {number} num - A positive whole number to  checkk for evenness
  * @returns {boolean/number}- Returns, `true` if the  number is even, `false` if it's not and `-1` if the input is negative

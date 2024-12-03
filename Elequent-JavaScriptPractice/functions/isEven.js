@@ -21,6 +21,12 @@
  * 
  * @param {number} num - A positive whole number to  checkk for evenness
  * @returns {boolean/number}- Returns, `true` if the  number is even, `false` if it's not and `-1` if the input is negative
+ * 
+ *  @example 
+ * console.log(isEven(50)); // true
+ * console.log(isEven(75)); // false
+ * console.log(isEven(-1)); //-1 (error indicator for negative input)
+ * 
  */
 
 function isEven(num){

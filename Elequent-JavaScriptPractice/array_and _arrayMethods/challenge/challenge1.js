@@ -34,7 +34,7 @@ Test data:
 function checkDogs(dogsJulia, dogskate){
     const copiedData = dogsJulia.slice();
     copiedData.splice(0, 1);
-    copiedData.splice(-2,2);
+    copiedData.splice(-2);
 
     let datas = [copiedData, ...dogskate]
     datas = datas.flat();
